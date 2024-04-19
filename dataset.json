@@ -1,0 +1,718 @@
+[
+  {
+    "prompt": "List all files and directories in the current directory",
+    "command": "ls"
+  },
+  {
+    "prompt": "Change directory to the parent directory",
+    "command": "cd .."
+  },
+  {
+    "prompt": "Create a new directory named 'test'",
+    "command": "mkdir test"
+  },
+  {
+    "prompt": "Remove the file named 'example.txt'",
+    "command": "rm example.txt"
+  },
+  {
+    "prompt": "Copy 'file1.txt' to 'file2.txt'",
+    "command": "cp file1.txt file2.txt"
+  },
+  {
+    "prompt": "Move 'file1.txt' to the directory 'test'",
+    "command": "mv file1.txt test/"
+  },
+  {
+    "prompt": "Display the contents of a file named 'example.txt'",
+    "command": "cat example.txt"
+  },
+  {
+    "prompt": "Create an empty file named 'newfile.txt'",
+    "command": "touch newfile.txt"
+  },
+  {
+    "prompt": "Display the current working directory",
+    "command": "pwd"
+  },
+  {
+    "prompt": "Find files in the current directory with a specific extension",
+    "command": "find . -type f -name '*.txt'"
+  },
+  {
+    "prompt": "List files and directories in a specific directory",
+    "command": "ls /path/to/directory"
+  },
+  {
+    "prompt": "Change directory to a specific directory",
+    "command": "cd /path/to/directory"
+  },
+  {
+    "prompt": "Create a symbolic link from 'file1' to 'file2'",
+    "command": "ln -s file1 file2"
+  },
+  {
+    "prompt": "Display the contents of a file with line numbers",
+    "command": "nl filename"
+  },
+  {
+    "prompt": "Change the permissions of a file to read-only",
+    "command": "chmod 400 filename"
+  },
+  {
+    "prompt": "List all processes running on the system",
+    "command": "ps -aux"
+  },
+  {
+    "prompt": "Display disk usage for all files and directories in the current directory",
+    "command": "du -h"
+  },
+  {
+    "prompt": "Display the manual page for a specific command",
+    "command": "man command"
+  },
+  {
+    "prompt": "Display the first few lines of a file",
+    "command": "head filename"
+  },
+  {
+    "prompt": "Display the last few lines of a file",
+    "command": "tail filename"
+  },
+  {
+    "prompt": "List only directories in the current directory",
+    "command": "ls -d */"
+  },
+  {
+    "prompt": "Change permissions of a file to make it executable",
+    "command": "chmod +x filename"
+  },
+  {
+    "prompt": "Compress a directory into a tar.gz file",
+    "command": "tar -czvf archive.tar.gz directory/"
+  },
+  {
+    "prompt": "Extract a tar.gz file",
+    "command": "tar -xzvf archive.tar.gz"
+  },
+  {
+    "prompt": "Create a symbolic link for a directory",
+    "command": "ln -s /path/to/source_directory /path/to/destination_directory"
+  },
+  {
+    "prompt": "Find all files larger than 1GB",
+    "command": "find . -type f -size +1G"
+  },
+  {
+    "prompt": "Search for a string in files recursively",
+    "command": "grep -r 'search_string' /path/to/directory"
+  },
+  {
+    "prompt": "Count the number of lines in a file",
+    "command": "wc -l filename"
+  },
+  {
+    "prompt": "Display disk space usage by file system",
+    "command": "df -h"
+  },
+  {
+    "prompt": "Show all users currently logged in",
+    "command": "who"
+  },
+  {
+    "prompt": "Check system uptime",
+    "command": "uptime"
+  },
+  {
+    "prompt": "Display CPU information",
+    "command": "lscpu"
+  },
+  {
+    "prompt": "Check memory usage",
+    "command": "free -m"
+  },
+  {
+    "prompt": "Find and replace text in a file",
+    "command": "sed -i 's/old_text/new_text/g' filename"
+  },
+  {
+    "prompt": "Sort lines of text alphabetically",
+    "command": "sort filename"
+  },
+  {
+    "prompt": "List all installed packages",
+    "command": "dpkg --list"
+  },
+  {
+    "prompt": "Show network interfaces and IP addresses",
+    "command": "ifconfig -a"
+  },
+  {
+    "prompt": "Check network connectivity to a specific host",
+    "command": "ping hostname"
+  },
+  {
+    "prompt": "Display listening ports",
+    "command": "netstat -tuln"
+  },
+  {
+    "prompt": "List all cron jobs for the current user",
+    "command": "crontab -l"
+  },
+  {
+    "prompt": "Check file integrity using checksum",
+    "command": "sha256sum filename"
+  },
+  {
+    "prompt": "Display detailed information about a file or directory",
+    "command": "ls -l filename"
+  },
+  {
+    "prompt": "Show the current date and time",
+    "command": "date"
+  },
+  {
+    "prompt": "Display the history of commands executed in the current shell session",
+    "command": "history"
+  },
+  {
+    "prompt": "Change the owner of a file or directory",
+    "command": "chown new_owner filename"
+  },
+  {
+    "prompt": "Change the group ownership of a file or directory",
+    "command": "chgrp new_group filename"
+  },
+  {
+    "prompt": "Create a new user account",
+    "command": "adduser username"
+  },
+  {
+    "prompt": "Delete a user account",
+    "command": "deluser username"
+  },
+  {
+    "prompt": "Show information about the system's hardware",
+    "command": "lshw"
+  },
+  {
+    "prompt": "List all environment variables",
+    "command": "printenv"
+  },
+  {
+    "prompt": "Display system load averages",
+    "command": "uptime"
+  },
+  {
+    "prompt": "Display the system's IP address",
+    "command": "hostname -I"
+  },
+  {
+    "prompt": "Display the system's kernel version",
+    "command": "uname -r"
+  },
+  {
+    "prompt": "Check available disk space",
+    "command": "df -h"
+  },
+  {
+    "prompt": "Display system memory information",
+    "command": "free -m"
+  },
+  {
+    "prompt": "View the contents of a compressed file without extracting it",
+    "command": "zcat filename.gz"
+  },
+  {
+    "prompt": "Set up a firewall rule to allow incoming traffic on a specific port",
+    "command": "iptables -A INPUT -p tcp --dport port_number -j ACCEPT"
+  },
+  {
+    "prompt": "List all installed packages and their versions",
+    "command": "dpkg -l"
+  },
+  {
+    "prompt": "Monitor system resource usage in real-time",
+    "command": "top"
+  },
+  {
+    "prompt": "Display a list of users currently logged in",
+    "command": "who"
+  },
+  {
+    "prompt": "Show a summary of disk usage by directory",
+    "command": "du -h --max-depth=1"
+  },
+  {
+    "prompt": "Check network connectivity to a remote host",
+    "command": "ping hostname"
+  },
+  {
+    "prompt": "Display the number of lines in a file",
+    "command": "wc -l filename"
+  },
+  {
+    "prompt": "Show the number of words in a file",
+    "command": "wc -w filename"
+  },
+  {
+    "prompt": "Print the last 10 lines of a file",
+    "command": "tail filename"
+  },
+  {
+    "prompt": "Display the first 10 lines of a file",
+    "command": "head filename"
+  },
+  {
+    "prompt": "Show disk space usage by file or directory",
+    "command": "du -sh directory_or_filename"
+  },
+  {
+    "prompt": "Display the total disk space used by a file or directory",
+    "command": "du -s directory_or_filename"
+  },
+  {
+    "prompt": "List files and directories in the current directory sorted by size",
+    "command": "ls -lS"
+  },
+  {
+    "prompt": "Find and delete empty directories in the current directory",
+    "command": "find . -type d -empty -delete"
+  },
+  {
+    "prompt": "Search for files containing a specific text",
+    "command": "grep -rnw '/path/to/search/' -e 'text_to_search'"
+  },
+  {
+    "prompt": "Display the current user's environment variables",
+    "command": "env"
+  },
+  {
+    "prompt": "Show detailed system information",
+    "command": "uname -a"
+  },
+  {
+    "prompt": "Check if a package is installed",
+    "command": "dpkg -l package_name"
+  },
+  {
+    "prompt": "Display the number of CPUs on the system",
+    "command": "nproc"
+  },
+  {
+    "prompt": "Show the current system's hostname",
+    "command": "hostname"
+  },
+  {
+    "prompt": "List all running processes owned by the current user",
+    "command": "ps -u $USER"
+  },
+  {
+    "prompt": "Display the contents of a file in hexadecimal format",
+    "command": "hexdump -C filename"
+  },
+  {
+    "prompt": "Search for a file or directory by name",
+    "command": "locate filename_or_directory"
+  },
+  {
+    "prompt": "Display the current system's architecture",
+    "command": "uname -m"
+  },
+  {
+    "prompt": "Show the system's release version",
+    "command": "lsb_release -a"
+  },
+  {
+    "prompt": "List all installed packages sorted alphabetically",
+    "command": "dpkg-query -W -f='${Package}\n' | sort"
+  },
+  {
+    "prompt": "Display the number of files in a directory",
+    "command": "ls -l | grep '^-' | wc -l"
+  },
+  {
+    "prompt": "List files sorted by modification time",
+    "command": "ls -lt"
+  },
+  {
+    "prompt": "List all files and directories recursively",
+    "command": "ls -R"
+  },
+  {
+    "prompt": "Show the disk usage of a file or directory in human-readable format",
+    "command": "du -h filename_or_directory"
+  },
+  {
+    "prompt": "Display the total number of files and directories in the current directory",
+    "command": "ls -1 | wc -l"
+  },
+  {
+    "prompt": "Find and delete files older than a specified number of days",
+    "command": "find /path/to/directory -type f -mtime +n -exec rm {} \\;"
+  },
+  {
+    "prompt": "Display detailed information about the file system",
+    "command": "df -hT"
+  },
+  {
+    "prompt": "Show the size of a directory and its contents",
+    "command": "du -sh /path/to/directory"
+  },
+  {
+    "prompt": "List all installed software packages sorted by installation date",
+    "command": "dpkg-query -W -f='${InstallDate} ${Package}\n' | sort"
+  },
+  {
+    "prompt": "Check system memory usage in megabytes",
+    "command": "free -m"
+  },
+  {
+    "prompt": "Display a tree-like structure of directories",
+    "command": "tree"
+  },
+  {
+    "prompt": "Count the number of occurrences of a word in a file",
+    "command": "grep -o 'word' filename | wc -l"
+  },
+  {
+    "prompt": "Show the current user's login name",
+    "command": "whoami"
+  },
+  {
+    "prompt": "List all open files",
+    "command": "lsof"
+  },
+  {
+    "prompt": "Check if a process is running",
+    "command": "pgrep process_name"
+  },
+  {
+    "prompt": "Display the current time",
+    "command": "date +%T"
+  },
+  {
+    "prompt": "List all users on the system",
+    "command": "getent passwd | cut -d: -f1"
+  },
+  {
+    "prompt": "Show the current user's home directory",
+    "command": "echo $HOME"
+  },
+  {
+    "prompt": "List all network interfaces",
+    "command": "ifconfig"
+  },
+  {
+    "prompt": "Find all files larger than 100MB in the current directory",
+    "command": "find . -type f -size +100M"
+  },
+  {
+    "prompt": "Display the top 10 largest files in the current directory",
+    "command": "du -ah | sort -rh | head -n 10"
+  },
+  {
+    "prompt": "Show the total number of files and directories in the current directory",
+    "command": "ls -l | wc -l"
+  },
+  {
+    "prompt": "List all files with a specific extension in the current directory",
+    "command": "ls -l *.extension"
+  },
+  {
+    "prompt": "Display the total number of lines in all text files in the current directory",
+    "command": "find . -type f -name '*.txt' | xargs wc -l | tail -n 1"
+  },
+  {
+    "prompt": "Find and delete all empty files in the current directory",
+    "command": "find . -type f -empty -delete"
+  },
+  {
+    "prompt": "List all users in the system along with their login shells",
+    "command": "cut -d: -f1,7 /etc/passwd"
+  },
+  {
+    "prompt": "Show the number of bytes used by a file",
+    "command": "wc -c filename"
+  },
+  {
+    "prompt": "Display a list of all directories with their sizes in the current directory",
+    "command": "du -h --max-depth=1 | grep './'"
+  },
+  {
+    "prompt": "Find and list all files accessed within the last 7 days",
+    "command": "find . -type f -atime -7 -ls"
+  },
+  {
+    "prompt": "Show a list of all files with their permissions",
+    "command": "ls -l | awk '{print $1, $9}'"
+  },
+  {
+    "prompt": "Display the total number of directories in the current directory",
+    "command": "ls -l | grep '^d' | wc -l"
+  },
+  {
+    "prompt": "List all files in the current directory sorted by modification time (latest first)",
+    "command": "ls -lt"
+  },
+  {
+    "prompt": "Find and list all symbolic links in the current directory",
+    "command": "find . -type l -ls"
+  },
+  {
+    "prompt": "Display the size of all subdirectories in the current directory",
+    "command": "du -h --max-depth=1 | grep '^[0-9.]*G'"
+  },
+  {
+    "prompt": "Find and list all files owned by a specific user",
+    "command": "find . -type f -user username"
+  },
+  {
+    "prompt": "Display the size of each subdirectory in the current directory",
+    "command": "du -h --max-depth=1"
+  },
+  {
+    "prompt": "Find and list all empty directories in the current directory",
+    "command": "find . -type d -empty -ls"
+  },
+  {
+    "prompt": "Show the number of characters in a file",
+    "command": "wc -m filename"
+  },
+  {
+    "prompt": "Display the total number of directories and subdirectories in the current directory",
+    "command": "find . -type d | wc -l"
+  },
+  {
+    "prompt": "Show the size of a file in kilobytes",
+    "command": "du -k filename"
+  },
+  {
+    "prompt": "List all files modified in the last 24 hours",
+    "command": "find . -type f -mtime -1"
+  },
+  {
+    "prompt": "Display the number of words in a file",
+    "command": "wc -w filename"
+  },
+  {
+    "prompt": "List all files with a specific pattern in the name",
+    "command": "ls -l *pattern*"
+  },
+  {
+    "prompt": "Find and list all files with read and write permissions",
+    "command": "find . -type f -perm -u=rw,g=rw,o=rw"
+  },
+  {
+    "prompt": "Show the number of lines in a file containing a specific string",
+    "command": "grep -c 'string' filename"
+  },
+  {
+    "prompt": "Display the size of a directory and its contents in human-readable format",
+    "command": "du -sh directory"
+  },
+  {
+    "prompt": "List all files and directories sorted by size (largest first)",
+    "command": "du -ah | sort -rh"
+  },
+  {
+    "prompt": "Show the number of files in a directory including subdirectories",
+    "command": "find . -type f | wc -l"
+  },
+  {
+    "prompt": "Display the number of bytes in a file",
+    "command": "wc -c filename"
+  },
+  {
+    "prompt": "List all files with execute permissions",
+    "command": "ls -l | grep '^-..x'"
+  },
+  {
+    "prompt": "Find and list all files owned by a specific group",
+    "command": "find . -group groupname -ls"
+  },
+  {
+    "prompt": "Show the number of directories in a directory",
+    "command": "ls -l | grep '^d' | wc -l"
+  },
+  {
+    "prompt": "Display the number of lines in a file excluding empty lines",
+    "command": "grep -c '.' filename"
+  },
+  {
+    "prompt": "List all files with the .txt extension",
+    "command": "ls -l *.txt"
+  },
+  {
+    "prompt": "Show the number of directories and subdirectories in the current directory",
+    "command": "find . -type d | wc -l"
+  },
+  {
+    "prompt": "Display the number of files in a directory excluding subdirectories",
+    "command": "ls -l | grep '^-' | wc -l"
+  },
+  {
+    "prompt": "List all files and directories with their sizes in human-readable format",
+    "command": "du -h"
+  },
+  {
+    "prompt": "Show the number of lines in a file with a specific extension",
+    "command": "cat *.extension | wc -l"
+  },
+  {
+    "prompt": "Display the size of a file in bytes",
+    "command": "stat -c%s filename"
+  },
+  {
+    "prompt": "List all files modified in the last 7 days",
+    "command": "find . -type f -mtime -7"
+  },
+  {
+    "prompt": "Show the number of characters in a file",
+    "command": "wc -m filename"
+  },
+  {
+    "prompt": "List all files with a specific extension in the current directory",
+    "command": "ls -l *.extension"
+  },
+  {
+    "prompt": "Find and list all empty directories in the current directory",
+    "command": "find . -type d -empty -ls"
+  },
+  {
+    "prompt": "Show the number of files in a directory including subdirectories",
+    "command": "find . -type f | wc -l"
+  },
+  {
+    "prompt": "Display the total size of all files in a directory",
+    "command": "du -c directory | tail -n 1"
+  },
+  {
+    "prompt": "List all files with read and write permissions for the owner",
+    "command": "ls -l | grep '^..rw'"
+  },
+  {
+    "prompt": "Show the number of directories in a directory including subdirectories",
+    "command": "find . -type d | wc -l"
+  },
+  {
+    "prompt": "Display the total size of all files in the current directory",
+    "command": "du -sh *"
+  },
+  {
+    "prompt": "List all files with execute permissions for the owner",
+    "command": "ls -l | grep '^..x'"
+  },
+  {
+    "prompt": "Show the number of lines in a file with a specific extension",
+    "command": "cat *.extension | wc -l"
+  },
+  {
+    "prompt": "Find and list all files larger than 1GB in the current directory",
+    "command": "find . -type f -size +1G -ls"
+  },
+  {
+    "prompt": "Display the total size of all files in a directory and its subdirectories",
+    "command": "du -sh directory"
+  },
+  {
+    "prompt": "List all files and directories with their sizes in bytes",
+    "command": "du -b"
+  },
+  {
+    "prompt": "Show the number of directories in the current directory excluding subdirectories",
+    "command": "ls -l | grep '^d' | wc -l"
+  },
+  {
+    "prompt": "Display the number of files with a specific extension in the current directory",
+    "command": "ls -l *.extension | wc -l"
+  },
+  {
+    "prompt": "List all files and directories with their sizes sorted by size (largest first)",
+    "command": "du -ah | sort -rh"
+  },
+  {
+    "prompt": "Show the number of directories in the current directory excluding hidden directories",
+    "command": "ls -l | grep '^d' | grep -v '^d.*\\..*' | wc -l"
+  },
+  {
+    "prompt": "Display the number of lines in a file containing a specific string",
+    "command": "grep -c 'string' filename"
+  },
+  {
+    "prompt": "Display the number of lines in a file",
+    "command": "wc -l filename"
+  },
+  {
+    "prompt": "List all files modified in the last 7 days",
+    "command": "find . -type f -mtime -7"
+  },
+  {
+    "prompt": "Show the number of words in a file",
+    "command": "wc -w filename"
+  },
+  {
+    "prompt": "List all files with a specific pattern in the name",
+    "command": "ls -l *pattern*"
+  },
+  {
+    "prompt": "Find and list all files with read and write permissions",
+    "command": "find . -type f -perm -u=rw,g=rw,o=rw -ls"
+  },
+  {
+    "prompt": "Show the number of lines in a file containing a specific string",
+    "command": "grep -c 'string' filename"
+  },
+  {
+    "prompt": "Display the size of a directory and its contents in human-readable format",
+    "command": "du -sh directory"
+  },
+  {
+    "prompt": "List all files and directories sorted by size (largest first)",
+    "command": "du -ah | sort -rh"
+  },
+  {
+    "prompt": "Show the total number of files and directories in the current directory",
+    "command": "ls -1 | wc -l"
+  },
+  {
+    "prompt": "Display the number of bytes in a file",
+    "command": "wc -c filename"
+  },
+  {
+    "prompt": "List all files with execute permissions",
+    "command": "ls -l | grep '^-..x'"
+  },
+  {
+    "prompt": "Find and list all files owned by a specific group",
+    "command": "find . -group groupname -ls"
+  },
+  {
+    "prompt": "Show the number of directories in a directory",
+    "command": "ls -l | grep '^d' | wc -l"
+  },
+  {
+    "prompt": "Display the number of lines in a file excluding empty lines",
+    "command": "grep -c '.' filename"
+  },
+  {
+    "prompt": "List all files with the .txt extension",
+    "command": "ls -l *.txt"
+  },
+  {
+    "prompt": "Show the number of directories and subdirectories in the current directory",
+    "command": "find . -type d | wc -l"
+  },
+  {
+    "prompt": "Display the number of files in a directory excluding subdirectories",
+    "command": "ls -l | grep '^-' | wc -l"
+  },
+  {
+    "prompt": "List all files and directories with their sizes in human-readable format",
+    "command": "du -h"
+  },
+  {
+    "prompt": "Show the number of lines in a file with a specific extension",
+    "command": "cat *.extension | wc -l"
+  }
+]
